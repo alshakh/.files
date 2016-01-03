@@ -8,6 +8,8 @@ alias lsa="ls -a"
 alias ..="cd .."
 alias ...="cd ../.."
 
+alias put="xsel" # Paste from clipboard to terminal
+
 # Git
 alias g=git
 alias gcl="git clone"
