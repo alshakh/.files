@@ -6,12 +6,12 @@ A collection of my usual dotfiles and other useful things
 * Add the following to `.bashrc` file
 
 ```bash
-source <dotfiles-path>/__init__.sh
+source absolute/path/to/dotfiles/__init__.sh
 ```
 
 * Add the following to `~/.gitconfig`
 
 ```
 [include]
-    path = <dotfiles-path>/gitconfig
+    path = relative/path/to/dotfiles/gitconfig
 ```
