@@ -1,0 +1,13 @@
+mount.ecryptfs SRC DST -o OPTIONS
+
+OPTIONS:-
+    key=passphrase
+    ecryptfs_enable_filename_crypto=[y/n]
+    ecryptfs_passthrough=[y/n]
+    no_sig_cache
+    ecryptfs_unlink_sigs
+    ecryptfs_key_bytes=[..]
+    ecryptfs_cipher=[..]
+    SIGNITURE OPTIONS:-
+        ecryptfs_fnek_sig={sig}
+        ecryptfs_sig={sig}
